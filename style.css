@@ -1,0 +1,350 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    padding : 0;
+    margin : 0;
+}
+
+
+nav a {
+    text-decoration: none;
+    color : black;
+    font-size : 20px;
+    /* display : flex; */
+    /* font-weight: ; */
+    margin-right: 35px;
+}
+
+#header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin : 0 100px; */
+    background-color: orange;
+    position: fixed;
+    top : 0;
+    right : 0;
+    left : 0;
+    box-shadow: 1px 4px 4px grey;
+}
+#header > nav > a {
+    color : white;
+    font-weight: bold;
+    border-bottom : 4px solid pink;
+}
+
+#header > nav > a:hover {
+    color : pink;
+}
+
+h1 {
+    font-size : 30px;
+}
+section {
+    margin : 60px 100px
+}
+
+#landing h1 {
+    font-size: 40px;
+}
+#landing p {
+    font-size: 35px;
+    font-weight : bold;
+}
+
+#landing {
+    display : flex;
+    margin: 80px 100px;
+    column-gap: 25px;
+}
+
+div a {
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 23px;
+}
+
+.btn-info {
+    border : 2px solid;
+    color : black;
+    background-color: white;
+    padding: 15px;
+    margin-right : 15px;
+}
+
+.btn-contact {
+    color: black;
+    background-color: orange;
+    padding : 15px
+}
+
+section div h2  {
+    border : 3px solid
+    /* padding-right : 40px */
+}
+#about {
+    display: flex;
+    column-gap: 50px;
+}
+
+#about-grafik {
+    display: flex;
+    margin-top : 50px;
+    /* font-size: 40px; */
+}
+
+#grafikh1 {
+    margin-right: 40px;
+    font-size: 30px;
+}
+#grafikh2 {
+    margin-right: 40px;
+}
+#grafikp {
+    margin-right: 40px;
+}
+
+#our {
+    display: flex;
+    align-items: center;
+    margin : none;
+    justify-content: space-between;
+    
+}
+
+#our-service {
+    margin : 100px 120px;
+}
+
+#our-service {
+    /* position : relative; */
+}
+
+
+#text-our {
+    font-weight: 6000;
+    font-size: 30px;
+}
+
+section > div > a {
+    background-color: orange;
+    padding : 10px;
+    border-radius : 5px;
+    color : white;
+    font-weight: bold;
+}
+
+#our-image {
+    display : flex;
+    margin-top: 45px;
+    column-gap: 60px;
+}
+
+#img-detail {
+    width: 100%;
+    height: 230px;
+    /* box-shadow: 2px 2px 2px darkgray; */
+}
+ #service-detail {
+    box-shadow: 1px 4px 4px darkgray;
+ }
+
+#our-image > div > p {
+    margin : 0 10px;
+    margin-top : 10px;
+}
+.services2 {
+    margin : 0 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* .services2 {
+    text-align: center;
+} */
+
+
+#section-contact {
+    margin : 50px 120px;
+}
+ #contact {
+    display: flex;
+    justify-content: space-between;
+ }
+
+#form-global {
+    border : 2px solid yellow;
+    padding : 5px 30px;
+}
+#form-struktur {
+    display: flex;
+    column-gap: 50px;
+}
+
+.label-input {
+    display: block;
+    margin : 15px 0;
+}
+
+.form-head {
+    border : none;
+    text-align : center;
+    margin-bottom: 45px;
+}
+.label-input-message {
+    display: block;
+    margin-top : 70px;
+}
+.input2 {
+    padding-right: 190px;
+    border : none;
+    outline : none;
+    border-bottom : 1px solid;
+    margin-top : 15px;
+    
+}
+.input2:focus{
+    border-bottom : 2px solid red;
+}
+
+.input1 {
+    border : none;
+    outline : none;
+    border-bottom : 1px solid;
+}
+.input1:focus {
+    border-bottom : 2px solid red;
+}
+#btn-submit {
+    margin-top : 20px;
+    background-color: orange;
+    font-weight: bold;
+    color : white;
+    padding : 4px;
+    border : none;
+    border-bottom : 1px solid;
+}
+
+#btn-submit:hover {
+    cursor : pointer ;
+}
+
+footer {
+    margin : 80px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer> div > img {
+    margin-right : 40px;
+    width: 30px;
+}
+
+
+#footer-head {
+    margin-left : 120px;
+}
+
+footer > div > img {
+    margin-right: 120px;
+}
+
+@media only screen and (max-width: 800px) {
+
+
+    html, body {
+        margin : 0 -10px
+    }
+
+    #header {
+        justify-content: center;
+        text-align: center;
+        column-gap: 190px;
+        background-color : white;
+        box-shadow: none;
+        position: fixed;
+        left : 0;
+        right : none;
+    }
+
+    #header > nav > a {
+        color : black;
+    }
+
+    header > nav > a {
+        align-items: center;
+    }
+
+   #landing > div > #lorem-h1 {
+        font-size : 20px;
+        font-weight: 10px;
+    }
+    #landing {
+        margin-top : 110px;
+        column-gap: 20px;
+    }
+    #landing > div > img {
+        width : 50vh;
+    }
+    .btn-info {
+        font-size : 15px;
+        padding : 5px
+    }
+    .btn-contact {
+        font-size : 15px;
+        padding : 5px
+    }
+
+    #about  img {
+        width : 40vh;
+    }
+
+#our-image {
+    column-gap: 10px;
+    font-size : 13px;
+}
+
+#form-global {
+width : 40vh;
+height : 102vh;
+justify-content: center;
+align-items: center;
+}
+
+#form-struktur {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-contact #contact iframe {
+    width : 110vh;
+    height : 80vh;
+    margin-top : 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input2 {
+    padding-right : 10px;
+}
+
+    
+}
+
+
